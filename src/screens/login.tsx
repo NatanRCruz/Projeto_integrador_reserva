@@ -42,7 +42,8 @@ const Login: React.FC = () => {
 
       // Armazene o accessToken no localStorage ou onde preferir
       localStorage.setItem('accessToken', result.accessToken);
-      setError('Login feito com sucesso');
+      alert("login feito com sucesso")
+      
     } catch (error) {
       console.error('Erro ao fazer login:', error);
       setError('Erro ao fazer login. Tente novamente.');
