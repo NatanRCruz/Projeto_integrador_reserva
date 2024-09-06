@@ -3,7 +3,7 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   height: 100%;
   width: 100%;
   display: flex;
@@ -100,8 +100,8 @@ body, html {
   color:#707070;
 }
 input:focus {
-  border-color: #546980; /* Cor da borda ao focar */
-  background-color: #f8f8f8; /* Cor de fundo ao focar */
+  border-bottom: 2px #4e75be solid;
+  background-color: #ffffff; /* Cor de fundo ao focar */
   outline: none; /* Remove o contorno padrão */
 }
 #exTel{
@@ -135,7 +135,7 @@ p{color: #727272;; width: 100%; height: 28px;}
 }
 
 .login-button:hover {
-  background-color: darkred;
+  background-color: light;
 }
 
 
