@@ -129,7 +129,7 @@ const Cadastro: React.FC = () => {
       <div className="row login-header">
           
           <div className="col-4">
-          <img src={backImage} alt="" style={{width:"50px", paddingLeft:"10px"}} />
+          <Link to="/"><img src={backImage} alt="" style={{width:"50px", paddingLeft:"10px"}} /></Link>
           </div>
 
           <div className="col-4"  >
@@ -228,7 +228,7 @@ const Cadastro: React.FC = () => {
             </div>
           </div>
 
-          <button type="submit" className="login-button">Registrar</button>
+          <button type="submit" className="login-button">Register</button>
         </form>
         <div className="signup-link">
           Já tem uma conta? <Link to="/">Entre</Link>
